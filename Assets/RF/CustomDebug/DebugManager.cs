@@ -48,7 +48,14 @@ namespace RF.CustomDebug
         {
             
         }
+        #endregion
+        
+        #region 디버그
 
+        public void Log<T>(T type, object obj)
+        {
+            Debug.Log("["+type.GetType().Name + "] : " + obj.ToString());
+        }
         #endregion
     }
 }
