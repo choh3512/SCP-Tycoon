@@ -12,13 +12,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Model_Base.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_View.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_View_Base.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Popup_Base.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Grid/GridBuildData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Manager/UI_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -33,8 +38,14 @@
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_View_Base.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_Model.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Popup_Base.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_Popup_Terms.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_Model.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Manager/UI_Manager.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25XLCCXio4QLuvJnmTiYLwvS58L" />
@@ -79,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645668358308</updated>
-      <workItem from="1645668365893" duration="13558000" />
+      <workItem from="1645668365893" duration="17304000" />
     </task>
     <servers />
   </component>

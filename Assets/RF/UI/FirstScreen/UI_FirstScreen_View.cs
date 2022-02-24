@@ -108,7 +108,7 @@ namespace RF.UI.FirstScreen
             SetLoading_Title_Alpha(1F);
             SetLoading_Tip_Alpha(1F);            
             
-            var ao = SceneManager.LoadSceneAsync("Game");
+            var ao = SceneManager.LoadSceneAsync("Lobby");
             ao.allowSceneActivation = false;
             
             float timer = 0F;
@@ -116,7 +116,7 @@ namespace RF.UI.FirstScreen
             while (!ao.isDone)
             {
                 yield return null;
-                /*timer += Time.deltaTime;
+                timer += Time.deltaTime;
                 if (ao.progress < 0.9F)
                 {
                     loading_slider.value = Mathf.Lerp(loading_slider.value, ao.progress, timer);
@@ -135,7 +135,7 @@ namespace RF.UI.FirstScreen
 
                         yield break;
                     }
-                }*/
+                }
 
             }
         }

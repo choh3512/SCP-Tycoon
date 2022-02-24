@@ -71,7 +71,7 @@ namespace RF.UI
                     
                     yield return new WaitForSeconds(1F);
                     
-                    ui_View.SetLoading_Tip(ui_Model.tip_Texts["tip_" + (tip_Index+1)]);
+                    ui_View.SetLoading_Tip("팁 : " + ui_Model.tip_Texts["tip_" + (tip_Index+1)]);
                     ui_View.SetLoading_Tip_Alpha(1F);
                     tip_Index++;
                 }
