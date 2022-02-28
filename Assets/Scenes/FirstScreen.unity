@@ -505,8 +505,10 @@ GameObject:
   - component: {fileID: 781053742}
   - component: {fileID: 781053744}
   - component: {fileID: 781053743}
+  - component: {fileID: 781053746}
+  - component: {fileID: 781053745}
   m_Layer: 5
-  m_Name: Logo_Screen
+  m_Name: UI_LogoScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,6 +575,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781053741}
   m_CullTransparentMesh: 1
+--- !u!114 &781053745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781053741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f1e6834f6ff594fac987094b67e039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logo_Title_Text: {fileID: 1693477484}
+  logo_Copyright_Text: {fileID: 144182446}
+--- !u!114 &781053746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781053741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a413107553c4a4a9c84719cac3e147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui_View: {fileID: 781053745}
+  loadingScreen: {fileID: 1768732890}
 --- !u!1 &823915004
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,7 +949,7 @@ GameObject:
   - component: {fileID: 1304631648}
   - component: {fileID: 1304631647}
   m_Layer: 5
-  m_Name: Start_Screen
+  m_Name: UI_FirstScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -958,13 +988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7bea0ee696d6542826b959f7d9f0ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logo_background: {fileID: 781053743}
-  logo_title_Text: {fileID: 1693477484}
-  logo_copyright_Text: {fileID: 144182446}
-  loading_background: {fileID: 1768732887}
-  loading_title_Text: {fileID: 1696068572}
-  loading_tip_Text: {fileID: 1767862976}
-  loading_slider: {fileID: 2029067096}
 --- !u!114 &1304631648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -978,6 +1001,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ui_View: {fileID: 1304631647}
+  logoScreen: {fileID: 781053746}
+  loadingScreen: {fileID: 1768732890}
 --- !u!1 &1565156767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,8 +1452,10 @@ GameObject:
   - component: {fileID: 1768732886}
   - component: {fileID: 1768732888}
   - component: {fileID: 1768732887}
+  - component: {fileID: 1768732890}
+  - component: {fileID: 1768732889}
   m_Layer: 5
-  m_Name: Loading_Screen
+  m_Name: UI_LoadingScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1494,6 +1521,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768732885}
   m_CullTransparentMesh: 1
+--- !u!114 &1768732889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768732885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423e2bf4b938fa7478b4b5b85d173c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 2029067096}
+  tip_Text: {fileID: 1767862976}
+--- !u!114 &1768732890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768732885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c828c585532cf4c4983aac70fa2aa362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui_View: {fileID: 1768732889}
+  sceneName: Lobby
 --- !u!1 &1933537876
 GameObject:
   m_ObjectHideFlags: 0

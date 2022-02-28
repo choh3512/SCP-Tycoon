@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using RF.UI.Base;
 using UnityEngine;
+using UniRx;
 
 public class UI_FirstScreen_Model : UI_Model_Base
 {
@@ -13,7 +14,15 @@ public class UI_FirstScreen_Model : UI_Model_Base
     }
     #endregion
     
+    #region 로딩 데이터
+    public FloatReactiveProperty progress = new FloatReactiveProperty(0);
+    #endregion
+    
     #region 팁 데이터
+
+    public float fadein_Alpha = 0;
+    public float fadeout_Alpha = 0;
+    
     public Dictionary<string, string> tip_Texts = new Dictionary<string, string>();
 
     private void Setup_Tips()

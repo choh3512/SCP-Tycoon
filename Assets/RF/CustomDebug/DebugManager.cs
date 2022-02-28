@@ -54,7 +54,7 @@ namespace RF.CustomDebug
 
         public void Log<T>(T type, object obj)
         {
-            Debug.Log("["+type.GetType().Name + "] : " + obj.ToString());
+            Debug.Log("["+type.GetType().Name + "] : " + (obj!= null ? obj.ToString() : "값 없음"));
         }
         #endregion
     }
