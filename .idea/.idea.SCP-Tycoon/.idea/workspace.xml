@@ -3,23 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="a7497a44-af9d-475b-b39c-cb21a8ecb29e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SCP-Tycoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SCP-Tycoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/CustomDebug/DebugManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/CustomDebug/DebugManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Model_Base.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Model_Base.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_Model.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_Model.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_Model.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_Model.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Manager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Manager/UI_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Manager/UI_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Terms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_Model.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_Model.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_View.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_View.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,40 +45,44 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_ColorGradientAssetMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu_View.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_Model.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Terms/UI_Popup_Terms_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Model_Base.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Manager/UI_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Unity/Yumi/Assets/Scripts/UI/EditorUI/MapEditor/TileEditWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_View_Base.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Grid/GridBuildData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_Model.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_Model.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Popup_Base.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame_Model.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_Model.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_Model.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Popup_Base.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/Player/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/Building/BuildingBase.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/RF/Grid/MapManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/Grid/GridBuildData.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/UI_FirstScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/UI_Base.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Model_Base.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_View_Base.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Popup_Base.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_Popup_Terms.cs" />
@@ -87,19 +97,37 @@
       <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_Model.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base_Common.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/CustomDebug/DebugManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button_Model.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_Model.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_Model.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_View.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Ingame/Ingame.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Model_Base.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame_Model.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_Model.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Top/UI_Top_Model.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Top/UI_Top.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Top/UI_Top_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Player/PlayerData.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Player/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_Model.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Top/UI_Ingame_Top_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25XLCCXio4QLuvJnmTiYLwvS58L" />
@@ -148,6 +176,10 @@
       <workItem from="1645886956136" duration="1023000" />
       <workItem from="1645950257164" duration="4912000" />
       <workItem from="1645955300804" duration="6927000" />
+      <workItem from="1646051363297" duration="3063000" />
+      <workItem from="1646124221233" duration="3265000" />
+      <workItem from="1646644994510" duration="10294000" />
+      <workItem from="1646731264150" duration="9807000" />
     </task>
     <servers />
   </component>

@@ -17,21 +17,6 @@ namespace RF.UI.Logo
 
             ui_View.Logo_Fade(this, loadingScreen);
         }
-
-        public override void Setup()
-        {
-            base.Setup();
-        }
-
-        public override void Think()
-        {
-            base.Think();
-        }
-
-        public override void OnRemove()
-        {
-            base.OnRemove();
-        }
         #endregion
         
         #region MVP

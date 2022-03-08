@@ -32,21 +32,6 @@ namespace RF.UI.Loading
             StartCoroutine("Loading");
             StartCoroutine("Tip_Change");
         }
-
-        public override void Setup()
-        {
-            base.Setup();
-        }
-
-        public override void Think()
-        {
-            base.Think();
-        }
-
-        public override void OnRemove()
-        {
-            base.OnRemove();
-        }
         #endregion
         
         #region 로딩
@@ -88,7 +73,6 @@ namespace RF.UI.Loading
                         yield break;
                     }
                 }
-
             }
         }  
         

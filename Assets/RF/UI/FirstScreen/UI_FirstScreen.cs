@@ -28,31 +28,6 @@ namespace RF.UI
             
             logoScreen.gameObject.SetActive(true);
         }
-
-        public override void Setup()
-        {
-            //CustomDebug.DebugManager.Instance.Log(this, "Setup");
-        }
-
-        public override void Hide(bool isHide)
-        {
-            //CustomDebug.DebugManager.Instance.Log(this, "Hide " + isHide);
-        }
-
-        public override void Think()
-        {
-            //CustomDebug.DebugManager.Instance.Log(this, "Think");
-        }
-
-        public override void Remove()
-        {
-            //CustomDebug.DebugManager.Instance.Log(this, "Remove");
-        }
-
-        public override void OnRemove()
-        {
-            //CustomDebug.DebugManager.Instance.Log(this, "OnRemove");
-        }
         #endregion        
         
         #region 로고 

@@ -13,21 +13,6 @@ namespace RF.UI.MainMenu
         {
             Setup_Buttons();
         }
-
-        public override void Setup()
-        {
-           
-        }
-
-        public override void Think()
-        {
-            
-        }
-
-        public override void OnRemove()
-        {
-           
-        }
         #endregion
         
         #region 메인메뉴 버튼

@@ -1,12 +1,13 @@
 using System.Collections.Generic;
+using RF.UI.Base;
 using UniRx;
 
 namespace RF.UI.Loading
 {
-    public class UI_LoadingScreen_Model
+    public class UI_LoadingScreen_Model:UI_Model_Base
     {
-        #region 초기화
-        public void Initialize()
+        #region Model 오버라이드
+        public override void Initialize()
         {
             
         }

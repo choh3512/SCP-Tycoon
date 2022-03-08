@@ -20,5 +20,7 @@ namespace RF.Building
         
         public int price = 0;
         public float spawnTime = 0F;
+
+        public Vector2 cellSize;
     }
 }
