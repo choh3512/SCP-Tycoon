@@ -1,3 +1,4 @@
+using RF.UI.Base;
 using RF.UI.Ingame;
 using Sirenix.OdinInspector;
 using UniRx;
@@ -12,7 +13,8 @@ namespace RF.UI.Shop
 
         public override void Initialize()
         {
-            Setup_Buttons();
+            Setup_Close();
+            Setup_Cats();
         }
         #endregion
         
@@ -27,11 +29,84 @@ namespace RF.UI.Shop
         [SerializeField] private UI_Ingame ui_Ingame;
         #endregion
         
+        #region UI Shop
+        [Title("카테고리")]
+        [SerializeField] private UI_Custom_Button cat_Room_Btn;
+        [SerializeField] private UI_Custom_Button cat_Training_Btn;
+        [SerializeField] private UI_Custom_Button cat_Generator_Btn;
+        [SerializeField] private UI_Custom_Button cat_Research_Btn;
+        [SerializeField] private UI_Custom_Button cat_Movement_Btn;
+        [SerializeField] private UI_Custom_Button cat_Misc_Btn;
+
+        private void Setup_Cats()
+        {
+            cat_Room_Btn.onSelected.AsObservable().Subscribe(unit =>
+            {
+                ui_View.Show_Rooms(true);
+                ui_View.Show_Generator(false);
+                ui_View.Show_Misc(false);
+                ui_View.Show_Movement(false);
+                ui_View.Show_Research(false);
+                ui_View.Show_Training(false);
+            });
+            
+            cat_Training_Btn.onSelected.AsObservable().Subscribe(unit =>
+            {
+                ui_View.Show_Rooms(false);
+                ui_View.Show_Generator(false);
+                ui_View.Show_Misc(false);
+                ui_View.Show_Movement(false);
+                ui_View.Show_Research(false);
+                ui_View.Show_Training(true);
+            });
+            
+            cat_Generator_Btn.onSelected.AsObservable().Subscribe(unit =>
+            {
+                ui_View.Show_Rooms(false);
+                ui_View.Show_Generator(true);
+                ui_View.Show_Misc(false);
+                ui_View.Show_Movement(false);
+                ui_View.Show_Research(false);
+                ui_View.Show_Training(false);
+            });
+            
+            cat_Research_Btn.onSelected.AsObservable().Subscribe(unit =>
+            {
+                ui_View.Show_Rooms(false);
+                ui_View.Show_Generator(false);
+                ui_View.Show_Misc(false);
+                ui_View.Show_Movement(false);
+                ui_View.Show_Research(true);
+                ui_View.Show_Training(false);
+            });
+            
+            cat_Movement_Btn.onSelected.AsObservable().Subscribe(unit =>
+            {
+                ui_View.Show_Rooms(false);
+                ui_View.Show_Generator(false);
+                ui_View.Show_Misc(false);
+                ui_View.Show_Movement(true);
+                ui_View.Show_Research(false);
+                ui_View.Show_Training(false);
+            });
+            
+            cat_Misc_Btn.onSelected.AsObservable().Subscribe(unit =>
+            {
+                ui_View.Show_Rooms(false);
+                ui_View.Show_Generator(false);
+                ui_View.Show_Misc(true);
+                ui_View.Show_Movement(false);
+                ui_View.Show_Research(false);
+                ui_View.Show_Training(false);
+            });
+        }
+        #endregion
+        
         #region 닫기
-        [Title("버튼")] 
+        [Title("닫기")] 
         [SerializeField] private Button close_Btn;
 
-        private void Setup_Buttons()
+        private void Setup_Close()
         {
             close_Btn.onClick.AsObservable().Subscribe(unit =>
             {
