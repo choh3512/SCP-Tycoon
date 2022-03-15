@@ -3,11 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="a7497a44-af9d-475b-b39c-cb21a8ecb29e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SCP-Tycoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SCP-Tycoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_Model.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_Model.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/Building/Room.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/Building/Room.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Shop/Generator/UI_Shop_Generator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Shop/Generator/UI_Shop_Generator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Shop/Room/UI_Shop_Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Shop/Room/UI_Shop_Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/room.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/room.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
@@ -46,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/Training/UI_Shop_Training_View.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/Movement/UI_Shop_Movement_Model.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Base/UI_Item_Base.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/Room/UI_Shop_Room_View.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +61,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/Training/UI_Shop_Training.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame_View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/Wallet/UI_Shop_Wallet_View.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Shop/Misc/UI_Shop_Misc_Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_View.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,18 +79,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base_Common.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/CustomDebug/DebugManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button_View.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button_Model.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_Model.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen_View.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen_View.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Base.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Logo/UI_LogoScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/FirstScreen/UI_FirstScreen.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Loading/UI_LoadingScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/Ingame/Ingame.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Model_Base.cs" />
@@ -95,7 +93,6 @@
       <option value="$PROJECT_DIR$/Assets/RF/Player/PlayerData.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/Grid/GridManager.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/Player/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Ingame/UI_Ingame_View.cs" />
@@ -104,12 +101,10 @@
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Room/UI_Shop_Room_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Room/UI_Shop_Room_Model.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_Model.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Room/UI_Shop_Room.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Training/UI_Shop_Training_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Training/UI_Shop_Training_Model.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Training/UI_Shop_Training.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Generator/UI_Shop_Generator_Model.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Generator/UI_Shop_Generator.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Generator/UI_Shop_Generator_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Research/UI_Shop_Research_Model.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Research/UI_Shop_Research.cs" />
@@ -121,8 +116,20 @@
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Misc/UI_Shop_Misc_Model.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Misc/UI_Shop_Misc.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_View.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_Item_Content.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Item_Base.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/UI_Item_ShopItem_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Item_ShopItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Item_ShopItem_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Room/UI_Shop_Room.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Generator/UI_Shop_Generator.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Base/Button/UI_Custom_Button.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/MainMenu/UI_MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Wallet/UI_Shop_Wallet_Model.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Wallet/UI_Shop_Wallet.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/Wallet/UI_Shop_Wallet_View.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25XLCCXio4QLuvJnmTiYLwvS58L" />
@@ -176,6 +183,9 @@
       <workItem from="1646644994510" duration="10294000" />
       <workItem from="1646731264150" duration="10337000" />
       <workItem from="1646889433832" duration="6983000" />
+      <workItem from="1647174666558" duration="614000" />
+      <workItem from="1647235016095" duration="3850000" />
+      <workItem from="1647347087889" duration="2170000" />
     </task>
     <servers />
   </component>

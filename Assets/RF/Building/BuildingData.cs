@@ -22,5 +22,7 @@ namespace RF.Building
         public float spawnTime = 0F;
 
         public Vector2 cellSize;
+
+        public string viewPrefabDir = "";
     }
 }

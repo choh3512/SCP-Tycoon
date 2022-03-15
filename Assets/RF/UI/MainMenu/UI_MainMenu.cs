@@ -1,4 +1,5 @@
 using RF.UI.Base;
+using RF.UI.Loading;
 using Sirenix.OdinInspector;
 using UniRx;
 using UnityEngine;
@@ -13,6 +14,11 @@ namespace RF.UI.MainMenu
         {
             Setup_Buttons();
         }
+        #endregion
+        
+        #region 게임 씬 로딩
+        [Title("로딩")] 
+        [SerializeField] private UI_LoadingScreen ui_LoadingScreen;
         #endregion
         
         #region 메인메뉴 버튼
@@ -53,7 +59,8 @@ namespace RF.UI.MainMenu
 
         private void Play()
         {
-            
+            gameObject.SetActive(false);
+            ui_LoadingScreen.gameObject.SetActive(true);
         }
 
         private void Collection()

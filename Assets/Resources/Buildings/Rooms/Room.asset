@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b0538a2244e0c4c85acb04dc5ccc8e, type: 3}
   m_Name: Room
   m_EditorClassIdentifier: 
-  title: 
-  desc: 
-  buildingType: 0
+  title: "\uACA9\uB9AC\uC2E4"
+  desc: "SCP\uB4E4\uC744 \uACA9\uB9AC\uD558\uC5EC \uAC00\uB46C\uB450\uACE0 \uAD00\uB9AC\uD558\uB294
+    \uBC29\uC785\uB2C8\uB2E4."
+  buildingType: 1
   price: 0
   spawnTime: 0
+  cellSize: {x: 1, y: 1}
+  viewPrefabDir: Buildings/Rooms/Room

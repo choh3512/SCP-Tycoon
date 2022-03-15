@@ -272,9 +272,17 @@ MonoBehaviour:
   onCursorExited:
     m_PersistentCalls:
       m_Calls: []
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  isUseSelect: 0
+  isUseSelect_Image: 0
+  buttons: []
+  selectedImage: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 0}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.19607843}
   pressedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
+  selectedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &137542631
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,9 +360,17 @@ MonoBehaviour:
   onCursorExited:
     m_PersistentCalls:
       m_Calls: []
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  isUseSelect: 0
+  isUseSelect_Image: 0
+  buttons: []
+  selectedImage: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 0}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.19607843}
   pressedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
+  selectedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &203668945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,9 +1588,17 @@ MonoBehaviour:
   onCursorExited:
     m_PersistentCalls:
       m_Calls: []
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  isUseSelect: 0
+  isUseSelect_Image: 0
+  buttons: []
+  selectedImage: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 0}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.19607843}
   pressedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
+  selectedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1518554306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7fbc97c581f28949892db0c8ad182ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_LoadingScreen: {fileID: 806592908}
   playButton: {fileID: 1833418115}
   collectionButton: {fileID: 137542634}
   settingButton: {fileID: 1689083007}
@@ -2177,9 +2202,17 @@ MonoBehaviour:
   onCursorExited:
     m_PersistentCalls:
       m_Calls: []
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  isUseSelect: 0
+  isUseSelect_Image: 0
+  buttons: []
+  selectedImage: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 0}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.19607843}
   pressedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
+  selectedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1777104644
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,9 +2377,17 @@ MonoBehaviour:
   onCursorExited:
     m_PersistentCalls:
       m_Calls: []
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  isUseSelect: 0
+  isUseSelect_Image: 0
+  buttons: []
+  selectedImage: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 0}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.19607843}
   pressedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
+  selectedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1868309908
 GameObject:
   m_ObjectHideFlags: 0
