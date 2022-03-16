@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using RF.Building;
+using RF.UI.Base;
 using Sirenix.OdinInspector;
+using UniRx;
 using UnityEngine;
 
 namespace RF.UI.Shop.Room
@@ -35,16 +37,20 @@ namespace RF.UI.Shop.Room
             foreach (var room in roomList)
             {
                 GameObject obj = Instantiate(ui_Item_Content, content, false);
+                
                 UI_Item_ShopItem item = obj.GetComponent<UI_Item_ShopItem>();
+                UI_Custom_Button btn = obj.GetComponent<UI_Custom_Button>();
                 
                 Sprite icon = Resources.Load<Sprite>(room.viewPrefabDir);
-                
-                Debug.Log(room.viewPrefabDir);
-                Debug.Log(icon);
-                
+
                 item.GetView().Set_Icon(icon);
                 item.GetView().Set_Title(room.title);
-                item.GetView().Set_Desc(room.desc);
+                item.GetView().Set_Desc("골드 : " + room.gold + "\n캐쉬 : " + room.cash + "\n공간 :"  + room.cellSize + "\n\n설명 : " + room.desc);
+
+                btn.onClick.AsObservable().Subscribe(unit =>
+                {
+                    ui_View.BuyPopup(room);
+                });
             }
         }
         #endregion

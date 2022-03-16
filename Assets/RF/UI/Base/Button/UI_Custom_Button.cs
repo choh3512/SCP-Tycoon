@@ -59,6 +59,10 @@ namespace RF.UI.Base
             ui_Model.Initialize();
         }
 
+        private void OnEnable()
+        {
+            ui_View.SetBGColor(normalColor);
+        }
         #endregion       
 
         #region 마우스 포인터 이벤트 

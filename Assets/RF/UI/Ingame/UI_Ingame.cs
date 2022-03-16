@@ -1,3 +1,4 @@
+using RF.UI.Base;
 using RF.UI.Shop;
 using RF.UI.Top;
 using Sirenix.OdinInspector;
@@ -37,7 +38,7 @@ namespace RF.UI.Ingame
 
         #region Buttons 
         [Title("버튼")]
-        [SerializeField] private Button shop_Btn;
+        [SerializeField] private UI_Custom_Button shop_Btn;
 
         private void Setup_Buttons()
         {

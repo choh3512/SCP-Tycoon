@@ -3,6 +3,7 @@ using RF.UI.Loading;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RF.UI.Logo
 {
@@ -13,9 +14,16 @@ namespace RF.UI.Logo
         [SerializeField] private TMP_Text logo_Title_Text;
         [SerializeField] private TMP_Text logo_Copyright_Text;
 
+        [SerializeField] private Image logo_Image;
+        
         public void Logo_Fade(UI_LogoScreen logoScreen, UI_LoadingScreen loadingScreen)
         {
             logoScreen.Fade(logo_Title_Text, FadeType.IN, 3F, () =>
+            {
+                loadingScreen.gameObject.SetActive(true);
+            });
+            
+            logoScreen.Fade(logo_Image, FadeType.IN, 3F, () =>
             {
                 loadingScreen.gameObject.SetActive(true);
             });

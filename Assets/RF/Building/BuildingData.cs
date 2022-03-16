@@ -18,7 +18,8 @@ namespace RF.Building
 
         public BuildingType buildingType;
         
-        public int price = 0;
+        public int gold = 0;
+        public int cash = 0;
         public float spawnTime = 0F;
 
         public Vector2 cellSize;

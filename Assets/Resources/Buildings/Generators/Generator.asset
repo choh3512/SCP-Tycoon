@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b0538a2244e0c4c85acb04dc5ccc8e, type: 3}
   m_Name: Generator
   m_EditorClassIdentifier: 
-  title: "\uBC1C\uC804\uC2E4"
+  title: "\uC804\uB825\uC2E4"
   desc: "SCP\uC2DC\uC124\uC744 \uAD00\uB9AC\uD558\uAE30 \uC704\uD55C \uC804\uB825\uC744
     \uC0DD\uC0B0\uD558\uB294 \uC2DC\uC124\uC785\uB2C8\uB2E4."
   buildingType: 0

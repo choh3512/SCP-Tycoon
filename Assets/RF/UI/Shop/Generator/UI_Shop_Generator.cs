@@ -44,7 +44,7 @@ namespace RF.UI.Shop.Generator
                 
                 item.GetView().Set_Icon(icon);
                 item.GetView().Set_Title(generator.title);
-                item.GetView().Set_Desc(generator.desc);
+                item.GetView().Set_Desc("골드 : " + generator.gold + "\n캐쉬 : " + generator.cash + "\n공간 :"  + generator.cellSize + "\n\n설명 : " + generator.desc);
             }
         }
         #endregion

@@ -1,4 +1,5 @@
 using RF.UI.Base;
+using RF.UI.Popup.ShopBuy;
 using RF.UI.Shop.Generator;
 using RF.UI.Shop.Misc;
 using RF.UI.Shop.Movement;

@@ -37,7 +37,6 @@ namespace RF.UI.Shop
         [SerializeField] private UI_Custom_Button cat_Research_Btn;
         [SerializeField] private UI_Custom_Button cat_Movement_Btn;
         [SerializeField] private UI_Custom_Button cat_Misc_Btn;
-
         private void Setup_Cats()
         {
             cat_Room_Btn.onSelected.AsObservable().Subscribe(unit =>
@@ -104,7 +103,7 @@ namespace RF.UI.Shop
         
         #region 닫기
         [Title("닫기")] 
-        [SerializeField] private Button close_Btn;
+        [SerializeField] private UI_Custom_Button close_Btn;
 
         private void Setup_Close()
         {
