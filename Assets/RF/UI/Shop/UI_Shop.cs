@@ -22,6 +22,11 @@ namespace RF.UI.Shop
         [Title("MVP")] 
         [SerializeField] private UI_Shop_View ui_View;
         private UI_Shop_Model ui_Model;
+
+        public UI_Shop_View GetView()
+        {
+            return ui_View;
+        }
         #endregion
         
         #region UI Ingame

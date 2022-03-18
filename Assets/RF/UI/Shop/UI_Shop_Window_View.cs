@@ -4,9 +4,9 @@ using RF.UI.Popup.ShopBuy;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace RF.UI.Shop.Room
+namespace RF.UI.Shop
 {
-    public class UI_Shop_Room_View : UI_View_Base
+    public class UI_Shop_Window_View : UI_View_Base
     {
         #region 팝업 
         [Title("팝업")]

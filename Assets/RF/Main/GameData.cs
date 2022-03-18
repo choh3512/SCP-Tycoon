@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
+using RF.Building;
 using RF.Exploration;
 using UnityEngine;
 
@@ -35,12 +36,20 @@ namespace RF.Main
         }
         #endregion
         
-        #region 생산 시간
-        private List<DateTime> _createTimes = new List<DateTime>();
-        public List<DateTime> CreateTimes
+        #region 건물 인벤토리
+        private Dictionary<BuildingType, List<BuildingData>> _buildingInv = new Dictionary<BuildingType, List<BuildingData>>();
+
+        public Dictionary<BuildingType, List<BuildingData>> BuildingInv
         {
-            get { return _createTimes; }
-            set { _createTimes = value; }
+            get
+            {
+                foreach (var tab in _buildingInv)
+                {
+                    CustomDebug.DebugManager.Instance.Log(this, "KEY : " + tab.Key + " \nValue : " + tab.Value + "\nNums : " + _buildingInv[tab.Key].Count);
+                }
+                
+                return _buildingInv;
+            }
         }
         #endregion
         

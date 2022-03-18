@@ -1,4 +1,5 @@
 using RF.UI.Base;
+using RF.UI.Inventory;
 using RF.UI.Shop;
 using RF.UI.Top;
 using Sirenix.OdinInspector;
@@ -36,9 +37,15 @@ namespace RF.UI.Ingame
         [SerializeField] private UI_Shop ui_Shop;
         #endregion
 
+        #region UI Inventory
+        [Title("인벤토리 UI")] 
+        [SerializeField] private UI_Inventory ui_Inventory;
+        #endregion
+        
         #region Buttons 
         [Title("버튼")]
         [SerializeField] private UI_Custom_Button shop_Btn;
+        [SerializeField] private UI_Custom_Button build_Btn;
 
         private void Setup_Buttons()
         {
@@ -46,6 +53,12 @@ namespace RF.UI.Ingame
             {
                 gameObject.SetActive(false);
                 ui_Shop.gameObject.SetActive(true);
+            });
+
+            build_Btn.onClick.AsObservable().Subscribe(unit =>
+            {
+                gameObject.SetActive(false);
+                ui_Inventory.gameObject.SetActive(true);
             });
         }
         #endregion

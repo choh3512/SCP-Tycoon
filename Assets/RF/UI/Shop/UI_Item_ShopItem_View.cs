@@ -17,9 +17,14 @@ namespace RF.UI.Shop
         
         [Title("설명")] 
         [SerializeField] private TMP_Text desc_Text;
-        public void Set_Icon(Sprite image)
+        public void Set_Icon(Sprite image, float width)
         {
             viewModel_Icon.sprite = image;
+
+            var rect = viewModel_Icon.rectTransform.rect;
+
+            viewModel_Icon.rectTransform.sizeDelta = new Vector2(rect.width * (Mathf.Max(1, width - 1)),
+                rect.height);
         }
 
         public void Set_Title(string text)

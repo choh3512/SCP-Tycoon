@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using RF.Building;
 using RF.UI.Base;
 using Sirenix.OdinInspector;
@@ -91,7 +92,12 @@ namespace RF.UI.Popup.ShopBuy
             {
                 if (Main.Main.Instance.GameData.Cash >= buildingData.cash)
                 {
+                    if (!Main.Main.Instance.GameData.BuildingInv.ContainsKey(buildingData.buildingType))
+                    {
+                        Main.Main.Instance.GameData.BuildingInv.Add(buildingData.buildingType, new List<BuildingData>());
+                    }
                     
+                    Main.Main.Instance.GameData.BuildingInv[buildingData.buildingType].Add(buildingData);  
                 }
                 else
                 {
@@ -102,7 +108,12 @@ namespace RF.UI.Popup.ShopBuy
             {
                 if (Main.Main.Instance.GameData.Money >= buildingData.gold)
                 {
+                    if (!Main.Main.Instance.GameData.BuildingInv.ContainsKey(buildingData.buildingType))
+                    {
+                        Main.Main.Instance.GameData.BuildingInv.Add(buildingData.buildingType, new List<BuildingData>());
+                    }
                     
+                    Main.Main.Instance.GameData.BuildingInv[buildingData.buildingType].Add(buildingData); 
                 }
                 else
                 {

@@ -1,11 +1,5 @@
 using RF.UI.Base;
 using RF.UI.Popup.ShopBuy;
-using RF.UI.Shop.Generator;
-using RF.UI.Shop.Misc;
-using RF.UI.Shop.Movement;
-using RF.UI.Shop.Research;
-using RF.UI.Shop.Room;
-using RF.UI.Shop.Training;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -15,7 +9,7 @@ namespace RF.UI.Shop
     {
         #region 격리 룸
         [Title("격리 룸")] 
-        [SerializeField] private UI_Shop_Room ui_ShopRoom;
+        [SerializeField] private UI_Shop_Window ui_ShopRoom;
 
         public void Show_Rooms(bool isActive)
         {
@@ -25,7 +19,7 @@ namespace RF.UI.Shop
         
         #region 훈련 시설
         [Title("훈련 시설")]
-        [SerializeField] private UI_Shop_Training ui_ShopTraining;
+        [SerializeField] private UI_Shop_Window ui_ShopTraining;
 
         public void Show_Training(bool isActive)
         {
@@ -35,7 +29,7 @@ namespace RF.UI.Shop
         
         #region 생산 시설
         [Title("생산 시설")] 
-        [SerializeField] private UI_Shop_Generator ui_ShopGenerator;
+        [SerializeField] private UI_Shop_Window ui_ShopGenerator;
 
         public void Show_Generator(bool isActive)
         {
@@ -45,8 +39,7 @@ namespace RF.UI.Shop
         
         #region 연구 시설
         [Title("연구 시설")] 
-        [SerializeField] 
-        private UI_Shop_Research ui_ShopResearch;
+        [SerializeField] private UI_Shop_Window ui_ShopResearch;
 
         public void Show_Research(bool isActive)
         {
@@ -56,7 +49,7 @@ namespace RF.UI.Shop
         
         #region 이동 시설
         [Title("이동 시설")]
-        [SerializeField] private UI_Shop_Movement ui_ShopMovement;
+        [SerializeField] private UI_Shop_Window ui_ShopMovement;
 
         public void Show_Movement(bool isActive)
         {
@@ -66,7 +59,7 @@ namespace RF.UI.Shop
         
         #region 기타
         [Title("기타")] 
-        [SerializeField] private UI_Shop_Misc ui_ShopMisc;
+        [SerializeField] private UI_Shop_Window ui_ShopMisc;
 
         public void Show_Misc(bool isActive)
         {
