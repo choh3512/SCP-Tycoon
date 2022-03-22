@@ -7,7 +7,11 @@ namespace RF.Building
     {
         None,
         Room,
-        Elevator,
+        Training,
+        Generator,
+        Research,
+        Movement,
+        Misc,
     }
     
     [CreateAssetMenu(menuName =  "ScriptableObject/Building", order = 0)]

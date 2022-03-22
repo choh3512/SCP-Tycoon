@@ -10,12 +10,21 @@ namespace RF.UI.Inventory
         #region UI 오버라이드 함수
         public override void Initialize()
         {
-        
+            foreach (var data in Main.Main.Instance.GameData.BuildingInv[buildingType])
+            {
+                ui_View.AddItem(data);
+            }
         }
         #endregion
         
-        #region 아이템
-
+        #region MVP
+        [Title("MVP")] 
+        [SerializeField] private UI_Inventory_Window_View ui_View;
+        #endregion
+        
+        #region 건물
+        [Title("건물")] 
+        [SerializeField] private BuildingType buildingType;
         #endregion
     }
 }
