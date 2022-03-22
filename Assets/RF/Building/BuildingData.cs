@@ -3,6 +3,14 @@ using UnityEngine;
 
 namespace RF.Building
 {
+    //this
+    //is
+    //some
+    //text
+    //that
+    //will
+    //be
+    
     public enum BuildingType
     {
         None,
@@ -14,7 +22,7 @@ namespace RF.Building
         Misc,
     }
     
-    [CreateAssetMenu(menuName =  "ScriptableObject/Building", order = 0)]
+    [CreateAssetMenu(menuName =  "ScriptableObject/Building TEST", order = 0)]
     public class BuildingData:ScriptableObject
     {
         public string title = "";

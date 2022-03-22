@@ -4,14 +4,6 @@
     <list default="true" id="a7497a44-af9d-475b-b39c-cb21a8ecb29e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SCP-Tycoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SCP-Tycoon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF/UI/Inventory/UI_Inventory_Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RF/UI/Inventory/UI_Inventory_Window.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +110,11 @@
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Shop_Window.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Shop/UI_Item_ShopItem_View.cs" />
-      <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Inventory/UI_Inventory_Window.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Inventory/UI_Item_Inventory_Content.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Inventory/UI_Item_Inventory_View.cs" />
       <option value="$PROJECT_DIR$/Assets/RF/UI/Inventory/UI_Inventory_Window_View.cs" />
+      <option value="$PROJECT_DIR$/Assets/RF/Building/BuildingData.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25XLCCXio4QLuvJnmTiYLwvS58L" />
@@ -184,6 +176,7 @@
       <workItem from="1647614035843" duration="2153000" />
       <workItem from="1647673044968" duration="828000" />
       <workItem from="1647862522709" duration="2041000" />
+      <workItem from="1647944197096" duration="2677000" />
     </task>
     <servers />
   </component>
