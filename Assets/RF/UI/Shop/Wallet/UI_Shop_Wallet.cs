@@ -3,15 +3,35 @@ using UnityEngine;
 
 namespace RF.UI.Shop.Wallet
 {
-    public class UI_Shop_Wallet : UI_Base
+    public class UI_Shop_Wallet : MonoBehaviour, IUI_Base
     {
         #region UI 오버라이드 함수
-        public override void Initialize()
+        public void Initialize()
         {
             ui_Model = new UI_Shop_Wallet_Model();
             ui_Model.Initialize();
 
             Setup_Wallet();
+        }
+
+        public void Setup()
+        {
+            
+        }
+
+        public void Think()
+        {
+            
+        }
+
+        public void Remove()
+        {
+            
+        }
+
+        public void OnRemove()
+        {
+            
         }
         #endregion
         

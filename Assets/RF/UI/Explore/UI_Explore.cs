@@ -1,11 +1,9 @@
-using System;
-using RF.UI.Base;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace RF.UI.Shop
+namespace RF.UI.Explore
 {
-    public class UI_Item_ShopItem : MonoBehaviour, IUI_Base
+    public class UI_Explore : MonoBehaviour, IUI_Base
     {
         #region 유니티 기본 내장 함수
 
@@ -19,13 +17,13 @@ namespace RF.UI.Shop
         {
             Think();
         }
-
         #endregion
         
         #region 인터페이스
         public void Initialize()
         {
-            
+            ui_Model = new UI_Explore_Model();
+            ui_Model.Initialize();
         }
 
         public void Setup()
@@ -40,23 +38,19 @@ namespace RF.UI.Shop
 
         public void Remove()
         {
-            
+           
         }
 
         public void OnRemove()
         {
-           
+            
         }
         #endregion
         
         #region MVP
-        [Title("MVP")] 
-        [SerializeField] private UI_Item_ShopItem_View ui_View;
-
-        public UI_Item_ShopItem_View GetView()
-        {
-            return ui_View;
-        }
+        [Title("MVP")]
+        [SerializeField] private UI_Explore_View ui_View;
+        private UI_Explore_Model ui_Model;
         #endregion
 
 

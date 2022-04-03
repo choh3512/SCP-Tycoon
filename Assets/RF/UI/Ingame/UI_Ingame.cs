@@ -1,3 +1,4 @@
+using System;
 using RF.UI.Base;
 using RF.UI.Inventory;
 using RF.UI.Shop;
@@ -9,15 +10,50 @@ using UnityEngine.UI;
 
 namespace RF.UI.Ingame
 {
-    public class UI_Ingame : UI_Base
+    public class UI_Ingame : MonoBehaviour, IUI_Base
     {
-        #region UI 오버라이드
-        public override void Initialize()
+        #region 유니티 기본 내장 함수
+
+        private void Awake()
+        {
+            Initialize();
+            Setup();
+        }
+
+        private void Update()
+        {
+            Think();
+        }
+
+        #endregion
+        
+        #region 인터페이스
+        public void Initialize()
         {
             ui_Model = new UI_Ingame_Model();
             ui_Model.Initialize();
 
             Setup_Buttons();
+        }
+
+        public void Setup()
+        {
+            
+        }
+
+        public void Think()
+        {
+            
+        }
+
+        public void Remove()
+        {
+            OnRemove();
+        }
+
+        public void OnRemove()
+        {
+            
         }
         #endregion
         

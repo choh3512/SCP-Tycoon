@@ -7,14 +7,47 @@ using UnityEngine.UI;
 
 namespace RF.UI.Shop
 {
-    public class UI_Shop : UI_Base
+    public class UI_Shop : MonoBehaviour, IUI_Base
     {
-        #region UI 오버라이드
+        #region 유니티 기본 내장 함수
 
-        public override void Initialize()
+        private void Awake()
+        {
+            Initialize();
+            Setup();
+        }
+
+        private void Update()
+        {
+            Think();
+        }
+        #endregion
+        
+        #region 인터페이스
+        public void Initialize()
         {
             Setup_Close();
             Setup_Cats();
+        }
+
+        public void Setup()
+        {
+           
+        }
+
+        public void Think()
+        {
+            
+        }
+
+        public void Remove()
+        {
+            
+        }
+
+        public void OnRemove()
+        {
+           
         }
         #endregion
         

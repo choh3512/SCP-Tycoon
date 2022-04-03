@@ -1,14 +1,32 @@
+using System;
 using System.Collections;
+using DG.Tweening;
 using RF.UI.Base;
 using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine;
 using UniRx;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace RF.UI.Loading
 {
-    public class UI_LoadingScreen : UI_Base
+    public class UI_LoadingScreen : MonoBehaviour, IUI_Base, IUI_Fade
     {
+        
+        #region 유니티 기본 내장 함수
+
+        private void Awake()
+        {
+            Initialize();
+            Setup();
+        }
+
+        private void Update()
+        {
+            Think();
+        }
+        #endregion
         
         #region MVP
         [Title("MVP")] 
@@ -17,10 +35,8 @@ namespace RF.UI.Loading
         #endregion        
         
         #region UI 오버라이드
-        public override void Initialize()
+        public void Initialize()
         {
-            base.Initialize();
-
             ui_Model = new UI_LoadingScreen_Model();
             ui_Model.Initialize();
             
@@ -32,6 +48,71 @@ namespace RF.UI.Loading
             StartCoroutine("Loading");
             StartCoroutine("Tip_Change");
         }
+
+        public void Setup()
+        {
+            
+        }
+
+        public void Think()
+        {
+           
+        }
+
+        public void Remove()
+        {
+            OnRemove();
+        }
+
+        public void OnRemove()
+        {
+           
+        }
+        
+        public void Fade(Image ui, FadeType fadeType, float time, Action completeFunc)
+        {
+            switch (fadeType)
+            {
+                case FadeType.IN:
+                    ui.DOFade(1F, time).OnComplete(()=>completeFunc());
+                    break;
+                case  FadeType.OUT:
+                    ui.DOFade(0F, time).OnComplete(()=>completeFunc());;
+                    break;
+                case FadeType.NONE:
+                    break;
+            }            
+        }
+
+        public void Fade(RawImage ui, FadeType fadeType, float time, Action completeFunc)
+        {
+            switch (fadeType)
+            {
+                case FadeType.IN:
+                    ui.DOFade(1F, time).OnComplete(()=>completeFunc());
+                    break;
+                case  FadeType.OUT:
+                    ui.DOFade(0F, time).OnComplete(()=>completeFunc());;
+                    break;
+                case FadeType.NONE:
+                    break;
+            }             
+        }
+
+        public void Fade(TMP_Text ui, FadeType fadeType, float time, Action completeFunc)
+        {
+            switch (fadeType)
+            {
+                case FadeType.IN:
+                    ui.DOFade(1F, time).OnComplete(()=>completeFunc());
+                    break;
+                case  FadeType.OUT:
+                    ui.DOFade(0F, time).OnComplete(()=>completeFunc());;
+                    break;
+                case FadeType.NONE:
+                    break;
+            }             
+        }        
         #endregion
         
         #region 로딩

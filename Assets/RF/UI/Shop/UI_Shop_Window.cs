@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using RF.Building;
 using RF.UI.Base;
@@ -8,12 +9,46 @@ using UnityEngine.UI;
 
 namespace RF.UI.Shop
 {
-    public class UI_Shop_Window : UI_Base
+    public class UI_Shop_Window : MonoBehaviour, IUI_Base
     {
-        #region UI 오버라이드 함수
-        public override void Initialize()
+        #region 유니티 기본 내장 함수
+
+        private void Awake()
+        {
+            Initialize();
+            Setup();
+        }
+
+        private void Update()
+        {
+            Think();
+        }
+        #endregion
+        
+        #region 인터페이스
+        public void Initialize()
         {
             Setup_Buildings();
+        }
+
+        public void Setup()
+        {
+           
+        }
+
+        public void Think()
+        {
+          
+        }
+
+        public void Remove()
+        {
+            
+        }
+
+        public void OnRemove()
+        {
+            
         }
         #endregion
 

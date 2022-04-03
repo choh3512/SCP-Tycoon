@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using RF.UI;
 using UnityEngine;
 
-public class UI_Item_Base : MonoBehaviour
+public class UI_Item_Base : MonoBehaviour, IUI_Base
 {
     #region 유니티 기본 내장 함수
     private void Awake()
@@ -24,19 +25,31 @@ public class UI_Item_Base : MonoBehaviour
     #endregion
     
     #region UI 가상 함수
-    public virtual void Initialize()
+
+    #endregion
+
+    public void Initialize()
     {
         
     }
 
-    public virtual void Think()
+    public void Setup()
     {
         
     }
-    
-    public virtual void OnRemove()
+
+    public void Think()
     {
         
     }
-    #endregion
+
+    public void Remove()
+    {
+        
+    }
+
+    public void OnRemove()
+    {
+        
+    }
 }

@@ -5,17 +5,15 @@ namespace RF.Building
 {
     //this
     //is
-    //some
+    //the
+    //changed
     //text
-    //that
-    //will
-    //be
-    
+
     public enum BuildingType
     {
         None,
         Room,
-        Training,
+        TrainingD,
         Generator,
         Research,
         Movement,

@@ -16,13 +16,16 @@ namespace RF.UI
         public void Think();
         public void Remove();
         public void OnRemove();
-        public void Hide(bool isHide);
+    }
+
+    public interface IUI_Fade
+    {
         public void Fade(Image ui, FadeType fadeType, float time, Action completeFunc);
         public void Fade(RawImage ui, FadeType fadeType, float time, Action completeFunc);
-        public void Fade(TMP_Text ui, FadeType fadeType, float time, Action completeFunc);
+        public void Fade(TMP_Text ui, FadeType fadeType, float time, Action completeFunc);        
     }
     
-    public class UI_Base : MonoBehaviour, IUI_Base
+    public class UI_Base : MonoBehaviour, IUI_Base, IUI_Fade
     {
         #region 유니티 기본 내장 함수
         private void Awake()
@@ -49,37 +52,37 @@ namespace RF.UI
         #endregion
         
         #region UI 인터페이스 함수
-        public virtual void Initialize()
+        public void Initialize()
         {
             
         }
 
-        public virtual void Setup()
+        public void Setup()
         {
             
         }
 
-        public virtual void Think()
+        public void Think()
         {
            
         }
 
-        public virtual void Remove()
+        public void Remove()
+        {
+            OnRemove();
+        }
+
+        public void OnRemove()
         {
             
         }
 
-        public virtual void OnRemove()
-        {
-            
-        }
-
-        public virtual void Hide(bool isHide)
+        public void Hide(bool isHide)
         {
             gameObject.SetActive(!isHide);
         }
 
-        public virtual void Fade(Image image, FadeType fadeType, float time, Action completeFunc)
+        public void Fade(Image image, FadeType fadeType, float time, Action completeFunc)
         {
 
             /*CustomDebug.DebugManager.Instance.Log(this, "UI : " + ui.GetType().BaseType);
@@ -100,7 +103,7 @@ namespace RF.UI
             }
         }
         
-        public virtual void Fade(RawImage rawImage, FadeType fadeType, float time, Action completeFunc)
+        public void Fade(RawImage rawImage, FadeType fadeType, float time, Action completeFunc)
         {
 
             /*CustomDebug.DebugManager.Instance.Log(this, "UI : " + ui.GetType().BaseType);
@@ -121,7 +124,7 @@ namespace RF.UI
             }
         }
         
-        public virtual void Fade(TMP_Text tmpText, FadeType fadeType, float time, Action completeFunc)
+        public void Fade(TMP_Text tmpText, FadeType fadeType, float time, Action completeFunc)
         {
 
             /*CustomDebug.DebugManager.Instance.Log(this, "UI : " + ui.GetType().BaseType);
